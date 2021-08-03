@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 50px;
+}
+.background-image{
+    background: url(./shopify.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+nav{
+    display: flex;
+}
