@@ -7,11 +7,21 @@
     margin: 0 50px;
 }
 .background-image{
-    background: url(./shopify.jpg);
+    background: url(./images/shopify.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
 }
 nav{
     display: flex;
+    justify-content: space-between;
+}
+.navbar-left{
+    display: flex;
+}
+.start,.sell,.manage,.market{
+    position: relative;
+}
+button{
+    margin: 25px;
 }
